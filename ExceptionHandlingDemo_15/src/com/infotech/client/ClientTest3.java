@@ -3,7 +3,6 @@ package com.infotech.client;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.io.InputStream;
 
 public class ClientTest3 {
@@ -19,8 +18,6 @@ public class ClientTest3 {
             //Rest of the code goes here
         } catch (FileNotFoundException e) {
             e.printStackTrace();
-        } catch (IOException e) {
-			e.printStackTrace();
-		}
+        } 
     }
 }
